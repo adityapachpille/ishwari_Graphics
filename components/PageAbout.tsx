@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { Handshake, Heart, TestTubeDiagonal,Lightbulb, Eye, Target } from 'lucide-react';
 
-const AboutUspage = () => {
+const PageAbout = () => {
   return (
     <>
     <section  className="pt-28 md:pt-10 px-4 md:px-18 bg-white">
@@ -129,4 +129,4 @@ const AboutUspage = () => {
   )
 }
 
-export default AboutUspage
+export default PageAbout
