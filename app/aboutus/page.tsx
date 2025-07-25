@@ -1,9 +1,9 @@
-import AboutUsPage from "@/components/AboutUsPage";
-export default function AboutusPage() {
+import AboutUspage from "@/components/AboutUspage";
+export default function Aboutus() {
     return(
         <>
         
-       <AboutUsPage />
+       <AboutUspage/>
         
         </>
     );
