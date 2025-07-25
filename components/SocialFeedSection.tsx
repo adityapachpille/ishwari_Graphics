@@ -24,7 +24,17 @@ export default function SocialFeedSection() {
         {/* Facebook Feed */}
         <div className="w-full">
           <h3 className="text-2xl font-semibold mb-4 text-center">Facebook Feed</h3>
-          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16qJpfpyTx%2F&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+         <iframe
+  src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16qJpfpyTx%2F&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"
+  width="500"
+  height="500"
+  style={{ border: 'none', overflow: 'hidden' }}
+  scrolling="no"
+  frameBorder="0"
+  allowFullScreen={true}
+  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+/>
+
         </div>
       </div>
     </section>
